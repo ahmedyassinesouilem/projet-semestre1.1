@@ -1,8 +1,22 @@
 body {
                 background-image: url("images/parchemin2.jpg");
             }
-            h1 {
-                text-align: center;
+            h2 {
+                color: blue;
+                background-color: goldenrod;
+                width: 90%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 1.5em;
+                border: solid;
+            }
+                                                
+            section h2 {   
+                border: none;
+                margin-top: 3px;
+                margin-bottom: 3px;
+                font-size: 1.5em;
+                font-style: italic;
             }
             h2 {
                 color: blue;
@@ -52,3 +66,28 @@ body {
                 background-color: goldenrod;
                 
             }
+            ol > li {
+                list-style: upper-roman;;
+            }
+            ol > li > ol > li {
+                list-style: lower-alpha;
+            }
+            ol > li > ol > li > ol > li {
+                list-style: lower-roman;
+            }
+            img {
+                border-width: 10px;
+                border-style: solid;
+                border-color : white;
+            }
+            
+            
+            
+            a > img {
+                border-color: blueviolet;
+            }
+            
+            a[href*="wikipedia"] > img {
+                border-color: #b6dcf6;
+            }
+            
